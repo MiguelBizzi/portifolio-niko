@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* container */
+
+#container {
+    margin: 25px 20% auto 20%;
+    /* border: 1px solid red; */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVEGACAO SUPERIOR */
+
+.logo {
+    
+    background: url(imagens/logo.png) no-repeat left center;
+    background-size: 40px;
+    width: 60px;
+    height: 30px;
+    margin-left: 11%;
+    float: left;
+}
+
+ul {
+    margin-top: 40px;
+    padding: 0;
+    list-style: none;
+    width: 1000px;
+    margin-left: 240px;
+}
+
+
+#navegacao li {
+    display: inline;
+    padding: 30px; 
+    font-size: 0.9em;  
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.primeiro-li {
+    margin-left: 20%;
+    color: #77b7ff;;
+    text-decoration: underline;
+}
+
+
+/* BLOCO AZUL */
+
+.bloco-azul {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #77b7ff;
+    width: 40%;
+    height: 60vh;
+    z-index: -1;
+}
+
+/* CONTEUDO */
+
+#conteudo {
+    /* border: 1px solid red; */
+    margin-top: 40px;
+
+}
+
+.informacoes {
+    width: 400px;
+    /* border: 1px solid red; */
+    margin-top: 15%;
+    margin-left: 100px;
+    padding: 40px;
+}
+
+.informacoes h1 {
+   font-size: 50px;
+}
+
+.informacoes h2 {
+    font-weight: 500;
+}
+
+.informacoes h4 {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.informacoes button {
+    margin-top: 20px;
+    text-shadow: none;
+    border: 2px solid #007bff;
+    color:#007bff;
+    font-size: 11px;
+    padding: 5px;
+    width: 100px;
+    cursor: pointer;
+}
+
+.azul {
+    color: #007bff;
+}
+
+/* IMAGEM NIKO */
+
+.niko {
+    position: absolute;
+    width: 40%;
+    height: 60vh;
+    top: 15%;
+    right: 20%;
+    z-index: -1;
+    
+}

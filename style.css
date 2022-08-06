@@ -40,6 +40,12 @@ ul {
     font-size: 0.9em;  
     font-weight: 500;
     cursor: pointer;
+    transition: .4s;
+}
+
+#navegacao li:hover {
+    font-size: 1.1em;
+    transition: .4s;
 }
 
 .primeiro-li {
@@ -99,6 +105,12 @@ ul {
     padding: 5px;
     width: 100px;
     cursor: pointer;
+    transition: .4s;
+}
+
+.informacoes button:hover {
+    letter-spacing: 0.3em;
+    transition: .4s;
 }
 
 .azul {
